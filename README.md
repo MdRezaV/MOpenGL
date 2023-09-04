@@ -1,2 +1,2 @@
-# Simple 2D and 3D OpenGL utilities for OpenTK
+# Simple OpenGL window for OpenTK
 C# OpenTK Windows Form OpenGL Window with FPS, Console Log, Shader Loader and Providers
