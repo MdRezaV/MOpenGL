@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="default.frag" />
+    <None Remove="default.vert" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="opentk" Version="4.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="default.frag" />
+    <EmbeddedResource Include="default.vert" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+</Project>
